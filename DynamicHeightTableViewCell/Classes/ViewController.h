@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CustomCell.h"
 @interface ViewController : UIViewController
+{
+    NSArray *tableDataArray;
+}
+@property (weak, nonatomic) IBOutlet UITableView *mTableView;
 
 
 @end
